@@ -1,0 +1,193 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Data Analysis CHS</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<script src="https://kit.fontawesome.com/f701a25427.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="single is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<h1><a href="https://dylan-castt.github.io/Portfolio-Dylan.github.io/" target="_self"
+					class="fa-regular fa-solid fa-circle-left">Home page</a></h1>
+			<nav class="links">
+				<ul>
+						
+					<li><a href="https://dylan-castt.github.io/Portafolio-Dylan.github.io/CHS-EN/IEA.html">
+						<p><b>
+							<p></p><b>Standardization of the <p></p>Annual Statistical Report</b>
+						</p></b>
+					</a></li>
+					<li><a href="https://dylan-castt.github.io/Portafolio-Dylan.github.io/CHS-EN/Pedidos.html">
+						<p>
+							<p></p><b>Demand <p></p>Planning</b>
+						</p>
+					</a></li>
+
+					<li><a href="https://dylan-castt.github.io/Portafolio-Dylan.github.io/CHS-EN/Consultas.html">
+						<p>
+							<p></p><b>Standardization of <p></p>Medical Consultations</b>
+						</p>
+					</a></li>
+<!--					<li><a href="https://dylan-castt.github.io/Portafolio-Dylan.github.io/Netmx/single.html">
+							<p><b>
+									<p></p>Analisis de datos <p></p>con NetMx
+							</p></b>
+						</a></li>
+						</a></li> -->
+				</ul>
+			</nav> 
+			<nav class="main">
+				<ul>
+<!--					<li class="search">
+						<a class="fa-search" href="#search">Search</a>
+						<form id="search" method="get" action="#">
+							<input type="text" name="query" placeholder="Search" />
+						</form> -->
+					</li>
+					<li class="menu">
+						<a class="fa-bars" href="#menu">Menu</a>
+					</li>
+
+				</ul>
+
+			</nav>				
+		</header>
+
+		<!-- Menu -->
+		<section id="menu">
+
+			<!-- Search 
+			<section>
+				<form class="search" method="get" action="#">
+					<input type="text" name="query" placeholder="Search" />
+				</form>
+			</section> -->
+
+			<!-- Links -->
+				<section>
+				<ul class="links">
+					
+					<li><a href="https://dylan-castt.github.io/Portfolio-Dylan.github.io/Who-is.Dylan/single.html">
+						<p>
+							<p></p><b>Who<p></p>is Dylan?</b>
+						</p>
+					</a></li>
+				<li><a href="https://dylan-castt.github.io/Portfolio-Dylan.github.io/Unilever-En/single.html">
+						<p>
+							<p></p><b>Macros and power BI <p></p>at Unilever</b>
+						</p>
+					</a></li>
+				<li><a href="https://dylan-castt.github.io/Portfolio-Dylan.github.io/Netmx-EN/single.html">
+						<p><b>
+								<p></p>Data analysis<p></p>with NetMx
+						</p></b>
+					</a></li>
+				<li><a href="https://dylan-castt.github.io/Portfolio-Dylan.github.io/Bosch-EN/single.html">
+						<p><b>
+								<p></p>Process improvement<p>
+								<p></p>with Alteryx at Bosch
+						</p></b>
+					</a></li>
+				</ul>
+			</section>
+
+			<!-- Actions -->
+			<!--<section>
+				<ul class="actions stacked">
+					<li><a href="#" class="button large fit">Log In</a></li>
+				</ul>
+			</section>
+		-->
+
+		</section>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Post -->
+			<article class="post">
+				<header>
+					<div class="title">
+						<h2>Data Analysis CHS</h2>
+				</header>
+				<p>
+					During my time at Corporativo Hospital Satélite, I have had the opportunity to lead 
+					a series of projects that have significantly enriched my professional experience and 
+					contributed to the success of the organization. These projects have spanned various 
+					areas and involved the application of skills in data analysis, project management, and 
+					process optimization. Below, I present the most relevant projects I have undertaken:
+				</p>
+				<P>
+					<H2>Measurement of medical Imaging Department Capacity</H2>
+				</P>
+				<p>
+					
+					This project was very challenging and significantly contributed to the development of 
+					my project management skills due to its complexity. It involved measuring the capacity 
+					of the imaging department, evaluating both the machines and the technicians. When I took 
+					on the project, a report had already been delivered, but I identified many areas for 
+					improvement. The final result was very useful for the process owners. Below, I present a 
+					general description of the process.
+				<p>
+					To calculate the technicians' capacity, we first obtained the actual schedules of each 
+					person by recording their entry and exit times. Then, we determined the demand through the 
+					DIVER system, which we use to manage the data. With this information, I designed a formula 
+					that uses the start and end times to break down the hours and determine hourly availability. 
+					This is especially important for night shifts, as we need to allocate the hours to the 
+					corresponding day. Finally, we divided the technicians into seven groups based on their 
+					specialties.
+				</p>	
+				<figure><center><img src="images/plantillaydem.jpg" width="1000" height="450" alt="" /></span>
+					<figcaption> 
+						The image is blurred to maintain data confidentiality.
+					</figcaption> 
+				</center></figure>
+				<p>
+					Then, I proceeded to organize the data for input into Solver, aiming to minimize the time of 
+					overdemand per hour, with the constraint that it be equal to or greater than zero. This 
+					involved minimizing 168 rows to obtain the most optimal result possible. After minimizing the 
+					sum of the overdemand for each specialty, I rearranged the data provided by Solver into our 
+					format. This allowed me to simulate the time used by the technicians to meet the demand and 
+					identify cases where it was insufficient.
+				</p>
+				<figure><center><img src="images/Solver.jpg" width="1000" height="350" alt="" /></span>
+
+				<figure><center><img src="images/Sobredemanda.jpg" width="1000" height="350" alt="" /></span>
+					<figcaption> 
+						The image is blurred to maintain data confidentiality.
+					</figcaption> 
+				</center></figure>
+
+			</article>
+
+		</div>
+
+		<!-- Footer -->
+
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
